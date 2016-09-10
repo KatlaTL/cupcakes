@@ -1,0 +1,110 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+#container-center-login {
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-top: -80px;
+    margin-left: -250px;
+}
+#container-center-login input {
+    height: 40px;
+    width: 200px;
+    font-size: 24px;
+    padding-left: 5px;
+}
+::-webkit-input-placeholder {
+    font-size: 20px;
+}
+#container-center-login input[type="submit"] {
+    font-size: 20px;
+    display:block;
+    margin: 20px 0 0 100px;
+}
+.radioStyle {
+    float: left;
+}
+#container-center-right {
+    margin-left: 50px;
+}
+#container-center-login .radioStyle input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right:5px; 
+    vertical-align:bottom;
+}
+#container-center-login .radioStyle label {
+    display: block;
+    margin-top:10px;
+}
+#container-center-login .radioStyle input[type="submit"] {
+    font-size: 20px;
+    display:block;
+    margin-top: 20px;
+    margin-left:-20px;
+}
+.red {
+    color:red;
+    font-size: 20px;
+}
+.green {
+    color:green;
+    font-size: 20px;
+}
+#loggedIn {
+    float: right;
+    margin: 50px 50px 0 0;
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;
+    padding: 10px 0 0 10px;
+}
+#loggedIn p {
+    font-size: 18px;
+}
+#shoppingCart {
+    float: right;
+    margin: 50px 50px 0 0;
+    border: 1px solid black;
+    height: auto;
+    width: 400px;
+    padding: 10px 0 0 10px;
+}
+#shoppingCart li {
+    margin:5px 0 10px 20px;
+}
+#totalPrice {
+    float: left;
+    margin-left: 280px;
+}
+#buyOrder {
+    float: left;
+}
+a {
+    text-decoration: underline;
+    color:blue;
+}
+a:link {
+    text-decoration: underline;
+    color:blue;
+}
+a:visited {
+    text-decoration: none;
+    color:blue;
+}
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color:gray;
+}
+a:active {
+    text-decoration: underline;
+    color:blue;
+}
+h1 {
+    position: fixed;
+    left: 40%;
+    margin-top: 300px;
+}
